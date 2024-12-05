@@ -1,17 +1,17 @@
 <?php
 
 // Database connection details
-require 'C:\xampp\htdocs\LOGINTEST\PHPMailer-master\src\Exception.php';
-require 'C:\xampp\htdocs\LOGINTEST\PHPMailer-master\src\PHPMailer.php';
-require 'C:\xampp\htdocs\LOGINTEST\PHPMailer-master\src\SMTP.php';
+require 'PHPMailer-master/src/Exception.php';
+require 'PHPMailer-master/src/PHPMailer.php';
+require 'PHPMailer-master/src/SMTP.php';
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+use PHPMailer/PHPMailer/PHPMailer;
+use PHPMailer/PHPMailer/Exception;
 
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "login";
+$username = "kamilmwg_test";
+$password = "Test@db24";
+$dbname = "kamilmwg_cv_management";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
