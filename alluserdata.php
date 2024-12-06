@@ -4,9 +4,9 @@ Session::CheckSession();
 
 // Database connection details
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "login";
+$username = "kamilmwg_test";
+$password = "Test@db24";
+$dbname = "kamilmwg_cv_management";
 
 // Create a new database connection
 $conn = new mysqli($servername, $username, $password, $dbname);
